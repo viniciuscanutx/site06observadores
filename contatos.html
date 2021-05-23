@@ -1,0 +1,150 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+        <meta charset='UTF-8'>
+        <title>D&D Covil dos Observadores</title>
+        <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style_contato.css"/>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    </head>
+    <body>
+        <link rel="shortcut icon" href=""/>
+        <!-- MENU DA PÁGINA -->
+        <div id='top'></div>
+        <div class='menu'>
+            <div class='fixo'>
+                <ul>
+                    <li class='home'>
+                        <a href='index.html' class="middle">Home</a>
+                    </li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Sobre D&D</button>
+                        <div class="dropdown-content">
+                            <a href='classes.html' class="middle">Classes</a>
+                            <a href="mundos.html" class="middle">Os Mundos</a>
+                        </div>
+                    </div>
+                    <li>
+                        <a href='contato.html' class="middle">Contato</a>
+                    </li>
+                    <li>
+                        <a href='quemsomos.html' class="middle">Quem Somos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- CABEÇALHO -->
+        <div class='showroom'>
+            <div class='logo'>
+                <h1>Covil dos Observadores</h2>
+                <p class='sub'>covilobservadores.com.br</p>
+            </div>
+        </div>
+
+        <!-- CORPO DA LOJA -->
+        <form id='forM' name='fContato'>       
+            <div class='container'>
+                <h3>Formulário de Contato</h3>
+                <div class='formulario'>
+                    <input id='txtNome' name='txtNome' placeholder="Nome Completo*">
+                    <input id='txtIdade' name='txtIdade' placeholder="Idade"><br>
+                    <input id='txtEmail' type="email" name='txtEmail' placeholder="E-mail*"><br>
+                    <input id='txtDDD' name='txtDDD' placeholder="DDD*">
+                    <input id='txtCelular' name='txtCelular' placeholder="Celular*">
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <select id='txt' name='fEstados'>
+                        <option value='select'>Estado*</option>
+                        <option disabled>─────Sudeste─────</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option disabled>─────Sul─────</option>
+                        <option value="PR">Paraná</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option disabled>─────Nordeste─────</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="FN">Fernando de Noronha</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="SE">Sergipe</option>
+                        <option disabled>─────Centro Oeste─────</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option disabled>─────Norte─────</option>
+                        <option value="AC">Acre</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="PA">Pará</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="TO">Tocantins</option>
+                        
+                    </select>
+                    <select id='txt' name='fcidade'>
+                        <option value='select'>Cidade*</option>
+                        <option value='sp'>São Paulo</option>
+                        <option value='bh'>Belo Horizonte</option>
+                        <option value='cur'>Curitiba</option>
+                        <option value='rj'>Rio de Janeiro</option>
+                        <option value='sal'>Salvador</option>
+                    </select>
+                    <p>*Itens obrigatórios</p>
+                    <div class='item' id="Moti">
+                        <select id='txtMoti' name='fItens'>
+                            <option>Motivo Do Contato*</option>
+                            <option value='duvida'>Dúvida</option>
+                            <option value='elogio'>Elogio</option>
+                            <option value='critica'>Crítica</option>
+                            <option value='outro'>Outro</option>
+                        </select><br>
+                        <textarea rows="9" placeholder="Escreva sua duvida/sugestão ou critica aqui*"></textarea><br><br>
+                        <input type='button' name='voltar' class='btnOK' value='Voltar' onclick='window.location.href="index.html";'>
+                        <input type='button' name='Enviar' value='Enviar' class='btnOK2'>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <!-- RODAPÉ -->
+        <div class='rodape'>
+            <div class='txtrodape'>
+                <p>
+                    Este trabalho apresentado à disciplina de Programação WEB Responsiva  como  requisito  parcial  de  conclusão  da  matéria.
+                </p>
+                <ol class="olRodape">
+                    <li class="listaRodape">
+                        <p>Desenvolvido por:</p>
+                    </li>
+                    <li class="listaRodape">
+                        <a href="quemsomos.html" class="middle">André Gonzaga</a>
+                    </li>
+                    <li class="listaRodape">
+                        <a href="quemsomos.html" class="middle">Andres Gutierrez</a>
+                    </li>
+                    <li class="listaRodape">
+                        <a href="quemsomos.html" class="middle">Gustavo de Sousa</a>
+                    </li>
+                    <li class="listaRodape">
+                        <a href="quemsomos.html" class="middle">João Louzado</a>
+                    </li>
+                    <li class="listaRodape">
+                        <a href="quemsomos.html" class="middle">Vinicius Canuto</a>
+                    </li>
+                </ol>  
+            </div>
+        </div>
+    </body>
+</html>
