@@ -1,7 +1,3 @@
 # Covil dos Observadores (RPG DE MESA)
 
-Site feito excluisivamente para um trabalho da faculdade entre amigos...
-
-
-
-O site tem a estética de um rpg de mesa e visa ensinar conceitos e classes sobre o tal citado acima.
+O projeto foi desenvolvido para um trabalho de 1 semestre de faculdade e descontinuado.
